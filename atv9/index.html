@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Biblioteca Faculdade Atividade 22</title>
+</head>
+<body>
+<h3>A biblioteca de uma universidade deseja fazer um algoritmo que leia o nome do livro que será emprestado,<br>
+  o tipo de usuário (professor ou aluno) e possa imprimir um recibo conforme mostrado a seguir. Considerar <br>
+  que o professor tem 10 dias para devolver o livro o aluno somente 3 dias.</h3>
+<p>
+<form action="atv9.php" method="post">
+  <label>Informe seu Nome</label>
+  <input type="name" name="name" placeholder="Informe seu nome">
+  <p />
+  <label>Informe seu status</label>
+  <select name="users" id="users">
+    <option value="teacher"> Professor(a)</option>
+    <option value="student"> Aluno(a)</option>
+  </select>
+  <p />
+  <label>Selecione seu livro</label>
+  <select name="book" id="book">
+    <option value="none" selected>Nenhum</option>
+    <option value="php_Laravel"> Laravel for Beginners</option>
+    <option value="php_begin"> PHP para Iniciantes</option>
+    <option value="php_MySql"> PHP e MySql</option>
+  </select>
+  <p />
+
+  <input type="date" name="date">
+  <p />
+  <input type="submit" value="Confirmar">
+
+
+</form>
+</p>
+</body>
+</html>
